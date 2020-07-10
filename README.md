@@ -35,9 +35,11 @@ Get an array looking something like:
                 "columnDefinition": null,
                 "comment": null,
                 "collation": "BINARY"
-            },
-        
-            ...
+            }
+        }
+    },
+    
+    ...
 ]
 ```
 
