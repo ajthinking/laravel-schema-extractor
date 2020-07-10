@@ -37,9 +37,7 @@ Get an array looking something like:
                 "collation": "BINARY"
             }
         }
-    },
-
-    // ...
+    }
 ]
 ```
 
