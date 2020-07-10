@@ -38,8 +38,8 @@ Get an array looking something like:
             }
         }
     },
-    
-    ...
+
+    // ...
 ]
 ```
 
