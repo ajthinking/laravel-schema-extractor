@@ -1,0 +1,25 @@
+{
+    "name": "ajthinking/laravel-schema-extractor",
+    "description": "Extract schema from your existing models",
+    "keywords": ["Laravel", "Schema"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "^6.0|^7.0",
+        "illuminate/console": "^6.0|^7.0",
+        "illuminate/filesystem": "^6.0|^7.0",
+        "doctrine/dbal": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelSchemaExtractor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelSchemaExtractor\\ServiceProvider"
+            ]
+        }
+    }
+}
